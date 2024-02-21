@@ -63,6 +63,18 @@ You can also play our experimental WebGL build through your web browser
 `here <https://play.taisei-project.org/>`__. (Chromium-based browsers and
 Firefox supported.)
 
+Debian/Ubuntu
+^^^^^^^^^^^^^
+
+.. code:: sh
+
+    wget -qO- https://repo.vitexsoftware.com/keyring.gpg | sudo tee /etc/apt/trusted.gpg.d/vitexsoftware.gpg
+    echo "deb [signed-by=/etc/apt/trusted.gpg.d/vitexsoftware.gpg]  https://repo.vitexsoftware.com  $(lsb_release -sc) games" | sudo tee /etc/apt/sources.list.d/vitexsoftwaregames.list
+    sudo apt update
+    sudo apt install taisei
+
+
+
 Source Code & Development
 -------------------------
 
