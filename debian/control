@@ -1,0 +1,21 @@
+Source: taisei
+Section: unknown
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends: debhelper-compat (= 13), meson, libzip-dev, libcglm-dev, python3-zstandard
+Standards-Version: 4.5.1
+Homepage: https://github.com/taisei-project/taisei
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/taisei-project/taisei
+Vcs-Browser: https://github.com/taisei-project/taisei
+
+Package: taisei
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: A free and open-source Touhou Project fangame 
+ Taisei Project is an open source fan-game set in the 
+ world of Tōhō Project. It is a top-down vertical-scrolling 
+ curtain fire shooting game (STG), also known as a "bullet hell" 
+ or "danmaku." STGs are fast-paced games focused around 
+ pattern recognition and mastery through practice.
