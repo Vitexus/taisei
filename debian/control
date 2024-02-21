@@ -1,8 +1,8 @@
 Source: taisei
-Section: unknown
+Section: games
 Priority: optional
 Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
-Build-Depends: debhelper-compat (= 13), meson, libzip-dev, libcglm-dev, python3-zstandard, cmake, pkgconf, libfreetype-dev, libsdl2-dev, libwebp-dev, libzstd-dev
+Build-Depends: debhelper-compat (= 13), meson, libzip-dev, libcglm-dev, python3-zstandard, cmake, pkgconf, libfreetype-dev, libsdl2-dev, libwebp-dev, libzstd-dev, glslc
 Standards-Version: 4.5.1
 Homepage: https://github.com/taisei-project/taisei
 Rules-Requires-Root: no
